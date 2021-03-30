@@ -6,7 +6,6 @@ use App\Models\Category;
 use App\Models\Products;
 use App\Models\ProductLogs;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Database\QueryException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

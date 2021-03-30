@@ -26,6 +26,7 @@
                             <th>PRICE</th>
                             <th>CATEGORY</th>
                             <th>CREATED BY</th>
+                            <th>UPDATED TIME</th>
                             <th>ACTION</th>
                         </tr>
                     </thead>
@@ -38,6 +39,7 @@
                             <td> {{ $product->product_price }} </td>
                             <td> {{ $product->category->category }} </td>
                             <td> {{ $product->creator->name }} </td>
+                            <td> {{ $product->updated_at->diffForHumans() }} </td>
                             <td class='btn-toolbar'>
                                 <a href='{{ route('product.form', ['id'=>$product->id]) }}' class='btn btn-primary btn-sm'> Edit </a>
                                 <form action="{{ route('product.destroy', $product->id) }}" method="GET">

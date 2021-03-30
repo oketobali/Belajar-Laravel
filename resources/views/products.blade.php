@@ -26,7 +26,7 @@
                             <th>PRICE</th>
                             <th>CATEGORY</th>
                             <th>CREATED BY</th>
-                            <th>UPDATED TIME</th>
+                            <th>UPDATED AT</th>
                             <th>ACTION</th>
                         </tr>
                     </thead>
